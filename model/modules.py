@@ -77,7 +77,7 @@ class VarianceAdaptor(nn.Module):
         return torch.from_numpy(attn_out).to(attn.device)
 
     def get_pitch_embedding(self, x, memory, mel2ph, control, f0, uv):
-        cwt = self.cwt_predictor(x) * control
+        cwt = self.cwt_predictor(x) 
         cwt_stats = self.cwt_stats_predictor(memory[:, 0, :])  # [B, 2]
         cwt_spec, cwt_mean, cwt_std = cwt[:, :, :10], cwt_stats[:, 0], cwt_stats[:, 1]
         if f0 is None and uv is None:
@@ -86,7 +86,8 @@ class VarianceAdaptor(nn.Module):
                 cwt_spec, cwt_mean, cwt_std, mel2ph, self.preprocess_config["preprocessing"]["pitch"])
             uv = cwt[:, :, -1] > 0
         f0_denorm = pitch_utils.denorm_f0(f0, uv, self.preprocess_config["preprocessing"]["pitch"])
-        pitch = pitch_utils.f0_to_coarse(f0_denorm)
+        f0_denorm = f0_denorm * control
+        pitch = pitch_utils.f0_to_coarse(f0_denorm) 
         embedding = self.pitch_embedding(pitch)
         prediction = [cwt, cwt_mean, cwt_std]
         return prediction, embedding
@@ -145,7 +146,7 @@ class VarianceAdaptor(nn.Module):
             x, mel_len = self.length_regulator(x, duration_rounded, max_mel_len)
             mel_mask = get_mask_from_lengths(mel_len)
             
-        mel2ph = pitch_utils.dur_to_mel2ph(duration_rounded, src_mask)[:, : max_mel_len]
+        mel2ph = pitch_utils.dur_to_mel2ph(duration_rounded, src_mask)[:, : mel_len.max()]
         
         if not gen:
             f0 = pitch_utils.cwt2f0_norm(
@@ -156,7 +157,7 @@ class VarianceAdaptor(nn.Module):
                 self.preprocess_config["preprocessing"]["pitch"])
         else:
             f0 = None
-        
+
         pitch_prediction, pitch_embedding = self.get_pitch_embedding(
             x, memory, mel2ph, p_control, f0, uv)
         x = x + pitch_embedding
