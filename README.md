@@ -43,4 +43,5 @@
 ## Reference
 1. [FastSpeech 2: Fast and High-Quality End-to-End Text to Speech](https://arxiv.org/abs/2006.04558)
 2. [One TTS Alignment To Rule Them All](https://arxiv.org/pdf/2108.10447.pdf)
-3. [Comprehensive-Transformer-TTS](https://github.com/keonlee9420/Comprehensive-Transformer-TTS)
+3. [FastSpeech2 github](https://github.com/ming024/FastSpeech2)
+4. [Comprehensive-Transformer-TTS](https://github.com/keonlee9420/Comprehensive-Transformer-TTS)
