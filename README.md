@@ -36,7 +36,7 @@
 
 
 ## Tensorboard Stats
-![FaseSpeech2-cwt-tensorboard-trn-stats](https://user-images.githubusercontent.com/69423543/183249555-faced9bc-3749-462d-aedb-d825138c8579.png)
+![FaseSpeech2-cwt-tensorboard-trn-stats](https://user-images.githubusercontent.com/69423543/183249740-c8c64f79-1920-4ea6-8d39-bce8f2463935.png)
 ![FaseSpeech2-cwt-tensorboard-val-stats](https://user-images.githubusercontent.com/69423543/183249668-1f4f5a3d-4930-427b-be6f-f6287e41cb1a.png)
 
 
