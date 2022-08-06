@@ -1,0 +1,50 @@
+/home/choihk/work/FastSpeech2/kss/1/1_0000.wav|0|그는 괜찮은 척하려고 애쓰는 것 같았다.
+/home/choihk/work/FastSpeech2/kss/1/1_0001.wav|0|그녀의 사랑을 얻기 위해 애썼지만 헛수고였다.
+/home/choihk/work/FastSpeech2/kss/1/1_0002.wav|0|용돈을 아껴 써라.
+/home/choihk/work/FastSpeech2/kss/1/1_0003.wav|0|그는 아내를 많이 아낀다.
+/home/choihk/work/FastSpeech2/kss/1/1_0004.wav|0|그 애 전화번호 알아?
+/home/choihk/work/FastSpeech2/kss/1/1_0005.wav|0|차에 대해 잘 아세요?
+/home/choihk/work/FastSpeech2/kss/1/1_0006.wav|0|거기 도착하면 나한테 알려 줘.
+/home/choihk/work/FastSpeech2/kss/1/1_0007.wav|0|그들은 내가 시험에 떨어졌다고 알려 왔다.
+/home/choihk/work/FastSpeech2/kss/1/1_0008.wav|0|나는 살아오면서 감기를 앓은 적이 한 번도 없다.
+/home/choihk/work/FastSpeech2/kss/1/1_0009.wav|0|사흘 동안 심하게 몸살을 앓았어요.
+/home/choihk/work/FastSpeech2/kss/1/1_0010.wav|0|요즘 공부가 안돼요.
+/home/choihk/work/FastSpeech2/kss/1/1_0011.wav|0|장사가 잘 안돼서 우울해.
+/home/choihk/work/FastSpeech2/kss/1/1_0012.wav|0|아무 것도 먹지 않으면 죽게 되어 있다.
+/home/choihk/work/FastSpeech2/kss/1/1_0013.wav|0|그녀는 이유를 묻지 않고 돈을 빌려 주었다.
+/home/choihk/work/FastSpeech2/kss/1/1_0014.wav|0|내가 아기를 안고 있을게.
+/home/choihk/work/FastSpeech2/kss/1/1_0015.wav|0|엄마는 말없이 나를 꼭 안아 주셨다.
+/home/choihk/work/FastSpeech2/kss/1/1_0016.wav|0|자리에 앉으세요.
+/home/choihk/work/FastSpeech2/kss/1/1_0017.wav|0|한 여자가 내 옆에 앉았다.
+/home/choihk/work/FastSpeech2/kss/1/1_0018.wav|0|일일사에 전화를 해서 번호를 알아보시지 그러세요?
+/home/choihk/work/FastSpeech2/kss/1/1_0019.wav|0|내가 누군지 알아보겠니?
+/home/choihk/work/FastSpeech2/kss/1/1_0020.wav|0|그는 절대 다른 사람의 의견을 받아들이지 않는다.
+/home/choihk/work/FastSpeech2/kss/1/1_0021.wav|0|아이들도 언젠가는 그녀를 엄마로 받아들일 거야.
+/home/choihk/work/FastSpeech2/kss/1/1_0022.wav|0|어디에서 영어를 배우셨어요?
+/home/choihk/work/FastSpeech2/kss/1/1_0023.wav|0|동료에게서 수화를 배우고 있습니다.
+/home/choihk/work/FastSpeech2/kss/1/1_0024.wav|0|이거 다른 걸로 바꿀 수 있을까요?
+/home/choihk/work/FastSpeech2/kss/1/1_0025.wav|0|색깔을 바꾸는 게 나을 거 같아.
+/home/choihk/work/FastSpeech2/kss/1/1_0026.wav|0|소영이 좀 바꿔 주세요.
+/home/choihk/work/FastSpeech2/kss/1/1_0027.wav|0|눈이 얼음으로 바뀌었어.
+/home/choihk/work/FastSpeech2/kss/1/1_0028.wav|0|핸드폰이 네 거랑 바뀐 거 같아.
+/home/choihk/work/FastSpeech2/kss/1/1_0029.wav|0|그 차는 들판에 버려진 채 발견됐다.
+/home/choihk/work/FastSpeech2/kss/1/1_0030.wav|0|이번 달 초에 상어떼가 해안가에서 발견됐다.
+/home/choihk/work/FastSpeech2/kss/1/1_0031.wav|0|오타를 발견하시는 분께 사례하겠습니다.
+/home/choihk/work/FastSpeech2/kss/1/1_0032.wav|0|결국 그의 개가 그의 시신을 발견했다.
+/home/choihk/work/FastSpeech2/kss/1/1_0033.wav|0|정신분석학은 이십 세기에 급격히 발전했다.
+/home/choihk/work/FastSpeech2/kss/1/1_0034.wav|0|한국어 실력이 날이 갈수록 발전하는 것을 보니 기쁩니다.
+/home/choihk/work/FastSpeech2/kss/1/1_0035.wav|0|죄송하지만 제 이름을 밝힐 수는 없어요.
+/home/choihk/work/FastSpeech2/kss/1/1_0036.wav|0|정전이 되어 촛불을 밝혔다.
+/home/choihk/work/FastSpeech2/kss/1/1_0037.wav|0|모두가 시험에 통과했음을 발표하게 되어 기쁘게 생각합니다.
+/home/choihk/work/FastSpeech2/kss/1/1_0038.wav|0|그 밴드는 첫 음반을 발표한 직후에 해체했다.
+/home/choihk/work/FastSpeech2/kss/1/1_0039.wav|0|화재가 발생하지 않도록 조심해라.
+/home/choihk/work/FastSpeech2/kss/1/1_0040.wav|0|어제 일본에서 태풍이 발생했다.
+/home/choihk/work/FastSpeech2/kss/1/1_0041.wav|0|돌고래는 지능이 발달했다.
+/home/choihk/work/FastSpeech2/kss/1/1_0042.wav|0|이 지역에는 농업이 발달했어요.
+/home/choihk/work/FastSpeech2/kss/1/1_0043.wav|0|그녀는 내 제안에 반대했다.
+/home/choihk/work/FastSpeech2/kss/1/1_0044.wav|0|저는 무력 사용을 반대합니다.
+/home/choihk/work/FastSpeech2/kss/1/1_0045.wav|0|밤늦게 남의 집을 방문하는 것은 실례다.
+/home/choihk/work/FastSpeech2/kss/1/1_0046.wav|0|저희 회사에 방문해 주셔서 감사드립니다.
+/home/choihk/work/FastSpeech2/kss/1/1_0047.wav|0|너는 브레이크를 너무 세게 밟아.
+/home/choihk/work/FastSpeech2/kss/1/1_0048.wav|0|어떤 남자가 지하철에서 내 발을 밟고 모른 척했다.
+/home/choihk/work/FastSpeech2/kss/1/1_0049.wav|0|그녀는 호기심으로 가득찬 눈으로 나를 바라보았다.
