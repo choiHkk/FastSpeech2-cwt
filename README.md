@@ -10,26 +10,27 @@
 ## Dataset
 1. download dataset - https://www.kaggle.com/datasets/bryanpark/korean-single-speaker-speech-dataset
 2. `unzip /path/to/the/kss.zip -d /path/to/the/kss`
-3. `mkdir /path/to/the/FastSpeech2/data/dataset`
-4. `mv /path/to/the/kss.zip /path/to/the/FastSpeech2/data/dataset`
+3. `mkdir /path/to/the/FastSpeech2-cwt/data/dataset`
+4. `mv /path/to/the/kss.zip /path/to/the/FastSpeech2-cwt/data/dataset`
 
 ## Docker build
-1. `cd /path/to/the/FastSpeech2`
-2. `docker build --tag FastSpeech2:latest .`
+1. `cd /path/to/the/FastSpeech2-cwt`
+2. `docker build --tag FastSpeech2_cwt:latest .`
 
 ## Training
-1. `nvidia-docker run -it --name 'FastSpeech2' -v /path/to/FastSpeech2:/home/work/FastSpeech2 --ipc=host --privileged FastSpeech2:latest`
-2. `cd /home/work/FastSpeech2`
-3. `cd /home/work/FastSpeech2/hifigan`
+1. `nvidia-docker run -it --name 'FastSpeech2-cwt' -v /path/to/FastSpeech2-cwt:/home/work/FastSpeech2-cwt --ipc=host --privileged FastSpeech2_cwt:latest`
+2. `cd /home/work/FastSpeech2-cwt`
+3. `cd /home/work/FastSpeech2-cwt/hifigan`
 4. `unzip generator_universal.pth.tar.zip .`
-5. `cd /home/work/FastSpeech2`
-6. `python preprocess.py ./config/kss/preprocess.yaml`
-7. `python train.py -p ./config/kss/preprocess.yaml -m ./config/kss/model.yaml -t ./config/kss/train.yaml`
-8. arguments
+5. `cd /home/work/FastSpeech2-cwt`
+6. `ln -s /home/work/FastSpeech2-cwt/data/dataset/kss`
+7. `python preprocess.py ./config/kss/preprocess.yaml`
+8. `python train.py -p ./config/kss/preprocess.yaml -m ./config/kss/model.yaml -t ./config/kss/train.yaml`
+9. arguments
   * -p : preprocess config path
   * -m : model config path
   * -t : train config path
-9. (OPTIONAL) `tensorboard --logdir=outdir/logdir`
+10. (OPTIONAL) `tensorboard --logdir=outdir/logdir`
 
 ## Tensorboard losses
 ![FastSpeech2-cwt-tensorboard-losses](https://user-images.githubusercontent.com/69423543/183249577-e48d1b40-b14e-42b0-a51a-bfa3281e98d9.png)
