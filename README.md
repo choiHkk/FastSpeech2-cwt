@@ -32,11 +32,13 @@
 9. (OPTIONAL) `tensorboard --logdir=outdir/logdir`
 
 ## Tensorboard losses
-![FastSpeech2-tensorboard-losses](https://user-images.githubusercontent.com/69423543/183047356-3fb819ee-dee1-40fb-9432-778a8b488202.png)
+![FastSpeech2-cwt-tensorboard-losses](https://user-images.githubusercontent.com/69423543/183249577-e48d1b40-b14e-42b0-a51a-bfa3281e98d9.png)
+
 
 ## Tensorboard Stats
-![FastSpeech2-tensorboard-stats1](https://user-images.githubusercontent.com/69423543/183047576-55743354-1286-42d8-8b43-b95bbd71aea1.png)
-![FastSpeech2-tensorboard-stats2](https://user-images.githubusercontent.com/69423543/183047734-796ed638-4fe1-405b-acc6-092420b835cd.png)
+![FaseSpeech2-cwt-tensorboard-trn-stats](https://user-images.githubusercontent.com/69423543/183249555-faced9bc-3749-462d-aedb-d825138c8579.png)
+![FaseSpeech2-cwt-tensorboard-val-stats](https://user-images.githubusercontent.com/69423543/183249572-b67dcfd7-c6fb-4592-8f70-70d658c33a50.png)
+
 
 ## Reference
 1. [FastSpeech 2: Fast and High-Quality End-to-End Text to Speech](https://arxiv.org/abs/2006.04558)
