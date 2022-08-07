@@ -228,6 +228,7 @@ class AudioTextProcessor(object):
             _, uv = pitch_utils.norm_interp_f0(
                 f0, self.preprocess_config["preprocessing"]["pitch"])
             energy = self.normalize(energy, self.energy_mean, self.energy_std)
+            uv = uv.astype(np.float32)
         else:
             uv = None
         
@@ -238,7 +239,7 @@ class AudioTextProcessor(object):
             cwt_spec.astype(np.float32), 
             cwt_mean.astype(np.float32), 
             cwt_std.astype(np.float32), 
-            uv.astype(np.float32), 
+            uv, 
             energy.astype(np.float32), 
             attn_prior.astype(np.float32)
         )
