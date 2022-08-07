@@ -165,7 +165,6 @@ class AudioTextProcessor(object):
                 os.path.join(preprocess_config["path"]["preprocessed_path"], "stats.json")
             ) as f:
                 stats = json.load(f)
-                self.pitch_mean, self.pitch_std = stats["pitch"][2:]
                 self.energy_mean, self.energy_std = stats["energy"][2:]
             
     def normalize(self, values, mean, std):
