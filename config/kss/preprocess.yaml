@@ -1,8 +1,8 @@
 dataset: "kss"
 
 path:
-  corpus_path: "/home/choihk/work/FastSpeech2/kss"
-  raw_path: "/home/choihk/work/FastSpeech2/kss/transcript.v.1.2.txt"
+  corpus_path: "/home/choihk/work/FastSpeech2-cwt/kss"
+  raw_path: "/home/choihk/work/FastSpeech2-cwt/kss/transcript.v.1.2.txt"
   preprocessed_path: "./preprocessed_data/kss"
   training_files: "./preprocessed_data/kss/train.txt"
   validation_files: "./preprocessed_data/kss/val.txt"
