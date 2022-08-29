@@ -137,7 +137,7 @@ class VarianceAdaptor(nn.Module):
             else:
                 x, mel_len = self.length_regulator(x, duration_rounded, max_mel_len)
         else:
-            attn_h, attn_s, attn_logprob = None, None, None
+            attn_h, attn_s, attn_logprob, max_mel_len, f0, uv, energy_target = None, None, None, None, None, None, None
             duration_rounded = torch.clamp(
                 (torch.round(torch.exp(log_duration_prediction) - 1) * d_control),
                 min=0,
