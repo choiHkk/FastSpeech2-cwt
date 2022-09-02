@@ -190,7 +190,8 @@ def synth_one_sample(targets, predictions, vocoder, model_config, preprocess_con
         os.path.join(preprocess_config["path"]["preprocessed_path"], "stats.json")
     ) as f:
         stats = json.load(f)
-        stats = stats["pitch"] + stats["energy"][:2]
+        # stats = stats["pitch"] + stats["energy"][:2]
+        stats = [None, None, None, None] + stats["energy"][:2]
 
     fig = plot_mel(
         [
